@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Авторские запонки ручной работы | SUDAKOV</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="quiz" class="content">
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <div id="presentSection">
+                        <p class="present-section-title" id="presentSectionTitle">
+                            До получения 3 подарков осталось
+                            <span id="presentSectionQuestion">7 ВОПРОСОВ</span>
+                        </p>
+                        <p class="present-section-title" id="presentSectionTitle2" style="display:none;">
+                            <span>ВАШИ ПОДАРКИ</span>
+                        </p>
+                        <div class="present" id="present">
+                            <div class="row">
+                                <div class="col-sm-12 col-4">
+                                    <div class="present-section-div present-section-div-1">
+                                        <p class="present-section-p-1">Личная консультация с автором проекта</p>
+                                        <img src="img/lock.svg" alt="lock" class="present-section-img-1">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-4">
+                                    <div class="present-section-div present-section-div-2">
+                                        <p class="present-section-p-2">3D-модель БИОФЕРМЫ КДВ&nbsp;ЭКО</p>
+                                        <img src="img/lock.svg" alt="lock" class="present-section-img-2">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-4">
+                                    <div class="present-section-div present-section-div-3">
+                                        <p class="present-section-p-3">
+                                            Онлайн-экскурсия по Экодому </p>
+                                        <img src="img/lock.svg" alt="lock" class="present-section-img-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-12">
+                    <div id="quiz-section">
+                        <div class="row">
+                            <div class="col-12">
+                                <header id="namberHeader">
+                                    <span class="number" id="namberID">01</span>
+                                </header>
+                            </div>
+                        </div>
+                        <div class="quiz-area">
+                            <div id="contentItemOne" class="quiz-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="quiz-content-question-h2">
+                                            Чем вас заинтересовал дом БИОФЕРМА КДВ ЭКО? <span>(можно&nbsp;несколько)</span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowOne option-input radio"
+                                                        id="radioOneOne" name="checboxScreenOne" value="Возможностью самостоятельно выращивать овощи и фрукты"
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <label for="radioOneOne">Возможностью самостоятельно выращивать овощи и фрукты</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowOne option-input radio"
+                                                        id="radioOneTwo" name="checboxScreenOne" value="Энергоэффективность, автономность, экологичность"
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <label for="radioOneTwo"> Энергоэффективность, автономность, экологичность</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowOne option-input radio"
+                                                        id="radioOneThree" name="checboxScreenOne" value="Потрясающий дизайн дома"
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <label for="radioOneThree">Потрясающий дизайн дома</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowOne option-input radio"
+                                                        id="radioOneFour" name="checboxScreenOne" value="Независимость и самообеспечение"
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <label for="radioOneFour">Независимость и самообеспечение</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowOne option-input radio"
+                                                        id="radioOneFive" name="checboxScreenOne" value="Бизнес на продаже собственной продукции"
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <label for="radioOneFive">Бизнес на продаже собственной продукции</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowOne option-input radio"
+                                                        id="userAnswerOne" name="checboxScreenOne" value
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <input type="text" class="inputGroup__userAnswer"
+                                                    data-id="userAnswerOne" name="oneInput" placeholder="Впишите свой ответ"/>
+                                                    <div class="inputGroup__checkField"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- contentItemOne -->
+                            <div id="contentItemTwo" class="quiz-content" style="display:none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="quiz-content-question-h2">
+                                            Как будете использовать БИОФЕРМА КДВ ЭКО?
+                                        </h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowTwo option-input radio"
+                                                        id="radioTwoOne" name="checboxScreenTwo" value="Больше для жизни"
+                                                        onclick="selectCheckboxText(this,
+                            'radioTwoSix',
+                            'userAnswerTwo')" />
+                                                    <label for="radioTwoOne">
+                                                        Больше для жизни
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowTwo option-input radio"
+                                                        id="radioTwoTwo" name="checboxScreenTwo" value="Больше для бизнеса"
+                                                        onclick="selectCheckboxText(this,
+                            'radioTwoSix',
+                            'userAnswerTwo')" />
+                                                    <label for="radioTwoTwo">
+                                                        Больше для бизнеса
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowTwo option-input radio"
+                                                        id="radioTwoThree" name="checboxScreenTwo"
+                                                        value="И для жизни и для бизнеса" onclick="selectCheckboxText(this,
+                            'radioTwoSix',
+                            'userAnswerTwo')" />
+                                                    <label for="radioTwoThree">
+                                                        И для жизни и для бизнеса
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowTwo option-input radio"
+                                                        id="radioTwoFour" name="checboxScreenTwo" value="Не определился"
+                                                        onclick="selectCheckboxText(this,
+                            'radioTwoSix',
+                            'userAnswerTwo')" />
+                                                    <label for="radioTwoFour">
+                                                        Не определился
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- contentItemTwo -->
+                            <div id="contentItemThree" class="quiz-content" style="display: none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="quiz-content-question-h2">
+                                            Когда планируете начать строительство?
+                                        </h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowThree option-input radio"
+                                                        id="radioThreeOne" name="checboxScreenThree" value="В ближайшее время"
+                                                        onclick="allRadio(this)" />
+                                                    <label for="radioThreeOne">
+                                                        В ближайшее время
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowThree option-input radio"
+                                                        id="radioThreeTwo" name="checboxScreenThree" value="В течение года"
+                                                        onclick="allRadio(this)" />
+                                                    <label for="radioThreeTwo">
+                                                        В течение года
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowThree option-input radio"
+                                                        id="radioThreeThree" name="checboxScreenThree" value="Затрудняюсь ответить"
+                                                        onclick="allRadio(this)" />
+                                                    <label for="radioThreeThree">
+                                                        Затрудняюсь ответить
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowThree option-input radio"
+                                                        id="userAnswerFour" name="checboxScreenThree"
+                                                        onclick="allRadio(this)" />
+                                                    <input type="text" class="inputGroup__userAnswer"
+                                                        data-id="userAnswerFour" name="fourInput" placeholder="Впишите свой ответ"/>
+                                                    <div class="inputGroup__checkField"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- contentItemThree -->
+                            <div id="contentItemFour" class="quiz-content" style="display:none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="quiz-content-question-h2">
+                                            Есть ли у вас опыт в строительстве?
+                                        </h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowFour option-input radio"
+                                                        id="radioFourFour" name="checboxScreenFour"
+                                                        value="Есть опыт, буду сам строить и контролировать строителей" onclick="allRadio(this)" />
+                                                    <label for="radioFourFour">
+                                                        Есть опыт, буду сам строить и контролировать строителей
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowFour option-input radio"
+                                                        id="radioFourOne" name="checboxScreenFour"
+                                                        value="Опыта нет, нужен прораб" onclick="allRadio(this)" />
+                                                    <label for="radioFourOne">
+                                                        Опыта нет, нужен прораб
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowFour option-input radio"
+                                                        id="radioFourThree" name="checboxScreenFour"
+                                                        value="Хочу получить дом под ключ" onclick="allRadio(this)" />
+                                                    <label for="radioFourThree">
+                                                        Хочу получить дом под ключ
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="radio" class="BtnOneShowFour option-input radio"
+                                                        id="radioFourTwo" name="checboxScreenFour"
+                                                        value="Хочу получить дом как БИОФЕРМУ, вместе с биотехнологиями" onclick="allRadio(this)" />
+                                                    <label for="radioFourTwo">
+                                                        Хочу получить дом как БИОФЕРМУ, вместе с биотехнологиями
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- contentItemFour -->
+                            <div id="contentItemFive" class="quiz-content" style="display:none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="quiz-content-question-h2">
+                                            У вас есть опыт в выращивании растений? <span>(можно несколько)</span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowFive option-input radio"
+                                                        id="radioFiveOne" name="checboxScreenFive"
+                                                        value="Да" onclick="pageRadioOne(this)"/>
+                                                    <label for="radioFiveOne">
+                                                        Да
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowFive option-input radio"
+                                                        id="radioFiveTwo" name="checboxScreenFive" value="Нет"
+                                                        onclick="pageRadioOne(this)"/>
+                                                    <label for="radioFiveTwo">
+                                                        Нет
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowFive option-input radio"
+                                                        id="radioFiveThree" name="checboxScreenFive"
+                                                        value="Готов учиться" onclick="pageRadioOne(this)"/>
+                                                    <label for="radioFiveThree">
+                                                        Готов учиться
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="inputGroup">
+                                                    <input type="checkbox" class="BtnOneShowFive option-input radio"
+                                                        id="radioFiveFour" name="checboxScreenFive" value="Хочу выращивать круглогодично"
+                                                        onclick="pageRadioOne(this)" />
+                                                    <label for="radioFiveFour">
+                                                        Хочу выращивать круглогодично
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- contentItemFive -->
+                            <div id="contentItemSix" class="quiz-content" style="display: none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="quiz-content-question-h2">
+                                            Впишите регион расположения вашего Живого дома, КДВ ЭКО:
+                                        </h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="inputGroup">
+                                            <input onclick="selectText(this)" type="text" class="inputGroup__userAnswer"
+                                                placeholder="Например: Нижегородская область" id="userAnswerSix" />
+                                            <div class="inputGroup__checkField"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- contentItemSix -->
+
+                            <div id="contentItemForm" class="quiz-content" style="display:none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="form__h3">
+                                            Наши специалисты уже составляют индивидуальную конфигурацию проекта вашего будущего Экодома.
+                                        </h3>
+                                        <p class="form__p">
+                                            Заполните форму, чтобы получить подарки:<br> 3D-модель, виртуальную экскурсию по<br> БИОФЕРМА КДВ ЭКО и личную консультацию.
+                                        </p>
+                                    </div>
+                                    <div class="col-12">
+                                        <form id="formQuestion" method="POST" class="formMain">
+                                            <input type="hidden" name="project_name" value="Quiz-test">
+                                            <input type="hidden" name="admin_email" value="test@gmail.com">
+                                            <input type="hidden" name="form_subject" value="Заявка с сайта">
+                                            <div class="formOutputSpexh">
+                                                <input type="text" placeholder="Введите ваше имя" required
+                                                    class="formOutput" id="name" name="user_name"
+                                                    oninvalid="this.setCustomValidity(' ')"
+                                                    oninput="setCustomValidity('')">
+                                                <!-- oninvalid="this.setCustomValidity('Заполните поле имя')" oninput="setCustomValidity('')" -->
+                                                <div class="inputGroup__checkField"></div>
+                                            </div>
+                                            <div class="formOutputSpexh">
+                                                <input type="tel" placeholder="Введите ваш телефон" required
+                                                    class="formOutput" id="phone" name="user_phone"
+                                                    pattern="^(?=.*[0-9])[- +()0-9]+$"
+                                                    oninvalid="this.setCustomValidity(' ')"
+                                                    oninput="setCustomValidity('')">
+                                                <div class="inputGroup__checkField"></div>
+                                            </div>
+                                            <textarea id="answerOne" rows="4" cols="55" name="answer_One"
+                                                style="display:none;"></textarea>
+
+                                            <textarea id="answerTwo" rows="4" cols="55" name="answer_Two"
+                                                style="display:none;"></textarea>
+
+                                            <textarea id="answerThree" rows="4" cols="55" name="answer_Three"
+                                                style="display:none;"></textarea>
+
+                                            <textarea id="answerFour" rows="4" cols="55" name="answer_Four"
+                                                style="display:none;"></textarea>
+
+                                            <textarea id="answerFive" rows="4" cols="55" name="answer_Five"
+                                                style="display:none;"></textarea>
+
+                                            <textarea id="answerSix" rows="4" cols="55" name="answer_Six"
+                                                style="display:none;"></textarea>
+
+                                            <div class="formBtn">
+                                                <button id="submit-form" type="submit" value="Получить расчёт и бонусы"
+                                                    onFocus="this.blur()">
+                                                    ПОЛУЧИТЬ ПОДАРКИ
+                                                </button>
+                                            </div>
+                                            <p class="politics">Нажимая на кнопку, вы соглашаетесь с нашей
+                                                <a href="politica.html" target="blank">политикой конфиденциальности</a>
+                                            </p>
+
+                                        </form>
+                                    </div>
+                                </div> <!-- row -->
+                            </div><!-- contentItemForm -->
+                            <div id="contentFormSuccess" style="display:none;">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="success__h3">
+                                            Спасибо за проявленный интерес!
+                                        </h3>
+                                        <p class="success__p">
+                                            Мы свяжемся с вами в ближайшее время и передадим подарки.
+                                        </p>
+                                    </div>
+                                    <div class="col-12">
+                                        <span class="success__span">Наши группы в соц. сетях</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="success__social">
+                                            <a href="https://www.youtube.com/playlist?list=PLgGmAT_hYjf4UbR2WHAsLpDXPbYANHh-x" class='success__social-item' target="_blank">
+                                                <img src="img/youtube.svg" alt="">
+                                            </a>
+                                            <a href="https://vk.com/domkdv" class='success__social-item' target="_blank">
+                                                <img src="img/vk.svg" alt="">
+                                            </a>
+                                            <a href="https://web.facebook.com/balakinkdv/" class='success__social-item' target="_blank">
+                                                <img src="img/fb.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- quiz-area -->
+
+                        <div class="navigationBtn" id="navBtnAll">
+                            <div class="row">
+                                <div class="col-12">
+                                    <button id="back" class="navBtn navBtnOne" onFocus="this.blur()"
+                                        style="display:none;"> Назад
+                                    </button>
+                                    <div class="btnCont" id="formBtnId">
+                                        <button id="onward" class="navBtn navBtnTwo" onFocus="this.blur()">
+                                            <!-- disabled onFocus="this.blur()" -->
+                                            следующий вопрос
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- navigationBtn -->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- quiz -->
+    </div> <!-- container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/quiz.js"> </script>
+
+    <script>
+        let $form = document.getElementById('formQuestion'),
+            $input = document.getElementById('name'),
+            $input2 = document.getElementById('phone'),
+            $submitBtn = document.getElementById('submit-form');
+
+        $submitBtn.addEventListener('click', function () {
+            if ($input.checkValidity()) {
+                $("#name").css('border', 'none');
+            } else {
+                $("#name").css('border', '1px solid red');
+            }
+
+            if ($input2.checkValidity()) {
+                $("#phone").css('border', 'none');
+            } else {
+                $("#phone").css('border', '1px solid red');
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#formQuestion").submit(function () {
+                $("#submit-form").prop('disabled', true);
+                $.ajax({
+                    type: "POST",
+                    url: "send.php",
+                    data: $(this).serialize()
+                }).done(function () {
+                    $('#contentItemForm').css('display', 'none')
+                    $('#contentFormSuccess').css('display', 'block')
+                });
+                return false;
+            });
+        });
+    </script>
+    <script>
+        let sliderNext = document.querySelector('#navNextOne');
+        let sliderPrev = document.querySelector('#navPrevOne');
+        let divNav = document.querySelectorAll('.slider-content'),
+            k = 0,
+            p = divNav.length;
+
+        sliderNext.addEventListener('click', function () {
+            if (k < 1) {
+                test = divNav[k];
+                k++;
+                test2 = divNav[k];
+                $(test).fadeOut();
+                $(test2).delay(400).fadeIn(500);
+            } else {
+                test = divNav[k];
+                k = 0;
+                test2 = divNav[k];
+                $(test).fadeOut();
+                $(test2).delay(400).fadeIn(500);
+            }
+        });
+        sliderPrev.addEventListener('click', function () {
+            k != 0 ? (
+                $(divNav[k]).fadeOut(),
+                k--,
+                $(divNav[k]).delay(400).fadeIn(500)
+            ) : (
+                $(divNav[k]).fadeOut(),
+                k = 1,
+                $(divNav[k]).delay(400).fadeIn(500)
+            )
+        });
+
+
+        let sliderNext2 = document.querySelector('#navNextTwo');
+        let sliderPrev2 = document.querySelector('#navPrevTwo');
+        let divNav2 = document.querySelectorAll('.slider-contentTwo'),
+            k2 = 0;
+
+        sliderNext2.addEventListener('click', function () {
+            if (k2 < 1) {
+                test = divNav2[k2];
+                k2++;
+                test2 = divNav2[k2];
+                $(test).fadeOut();
+                $(test2).delay(400).fadeIn(500);
+            } else {
+                test = divNav2[k2];
+                k2 = 0;
+                test2 = divNav2[k2];
+                $(test).fadeOut();
+                $(test2).delay(400).fadeIn(500);
+            }
+        });
+        sliderPrev2.addEventListener('click', function () {
+            k2 != 0 ? (
+                $(divNav2[k2]).fadeOut(),
+                k2--,
+                $(divNav2[k2]).delay(400).fadeIn(500)
+            ) : (
+                $(divNav2[k2]).fadeOut(),
+                k2 = 1,
+                $(divNav2[k2]).delay(400).fadeIn(500)
+            )
+        });
+    </script>
+
+</body>
+</html>

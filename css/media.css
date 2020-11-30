@@ -1,0 +1,902 @@
+@media (min-width: 1367px) {
+    .container {
+        max-width: 1440px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1470px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .inputGroupSpeshR {
+        height: 280px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        font-size: 28px;
+    }
+
+    .form__p,
+    .success__p {
+        width: 96%;
+    }
+}
+
+@media (max-width: 1600px) {
+
+    #quiz {
+        min-height: 686px;
+    }
+
+    .container {
+        max-width: 1340px;
+    }
+
+    header .number {
+        width: 75px;
+        height: 90px;
+        font-size: 35px;
+        padding-top: 22px;
+    }
+    
+    #presentSection {
+        min-height: 686px;
+    }
+
+    #presentSection .present-section-title {
+        padding-top: 35px;
+        margin-bottom: 45px;
+    }
+
+    #presentSection .present-section-title span {
+        font-size: 45px;
+    }
+
+    #presentSection .present-section-div {
+        margin-bottom: 15px;
+        width: 230px;
+        height: 150px;
+    }
+
+    #presentSection .present-section-div img {
+        right: 120px;
+    }
+
+    .quiz-area {
+        min-height: 470px;
+    }
+
+    .quiz-content-question-h2 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+
+    .inputGroup {
+        height: 80px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .inputGroup label {
+        font-size: 18px;
+        padding-left: 60px;
+    }
+
+    .inputGroupSpeshR {
+        font-size: 16px;
+        height: 260px;
+    }
+
+    .textboxOther {
+        font-size: 16px;
+    }
+
+    .inputGroupSpeshTwo {
+        font-size: 16px;
+        height: 80px;
+    }
+
+    .textboxOtherT {
+        font-size: 16px;
+    }
+
+    .navigationBtn {
+        padding-bottom: 20px;
+    }
+
+    .btnCont {
+        font-size: 18px;
+        width: 260px;
+    }
+
+    .textboxS {
+        font-size: 16px;
+        height: 70px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        padding-top: 120px;
+    }
+
+    .form__p,
+    .success__p {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .formOutputSpexh {
+        width: 45%;
+        font-size: 18px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .formBtn {
+        width: 45%;
+        font-size: 16px;
+        height: 70px;
+    }
+
+    .politics {
+        padding-top: 5px;
+        font-size: 12px;
+        line-height: 14px;
+        width: 45%;
+    }
+
+    #contentItemSix .inputGroup input[type="text"], #contentItemThree .inputGroup input[type="text"], #contentItemOne .inputGroup input[type="text"] {
+        margin-left: 60px;
+    }
+
+    .inputGroup input[type="checkbox"]:checked+label::before, .inputGroup input[type="radio"]:checked+label::before {
+        left: 30px;
+        top: 29px;
+    }
+
+    .success__span {
+        margin: 38px 0 30px;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .header__logo {
+        width: 210px;
+        margin-top: 35px;
+        right: 35px;
+    }
+
+    header .number {
+        width: 65px;
+        height: 80px;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    #presentSection {
+        padding-bottom: 0px;
+        min-height: 560px;
+    }
+
+    #presentSection .present-section-title {
+        font-size: 16px;
+        padding-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    #presentSection .present-section-title span {
+        font-size: 33px;
+        padding-top: 20px;
+    }
+
+    #presentSection .present-section-div {
+        margin-bottom: 10px;
+        width: 200px;
+        height: 130px;
+    }
+
+    #presentSection .present-section-div p {
+        font-size: 16px;
+    }
+
+    #presentSection .present-section-div p {
+        font-size: 16px;
+    }
+
+    #presentSection .present-section-div img {
+        width: 20px;
+        top: 8px;
+        right: 100px;
+    }
+
+    #quiz-section {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #quiz {
+        min-height: 560px;
+    }
+
+    .quiz-area {
+        min-height: 410px;
+    }
+
+    .quiz-content-question-h2 {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .inputGroup {
+        height: 60px;
+        line-height: 57px;
+        margin-bottom: 10px;
+    }
+
+    .inputGroup label::after, .inputGroup__checkField {
+        left: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .inputGroup.is-active .inputGroup__checkField::after, .formOutputSpexh.is-active .inputGroup__checkField::after{
+        width: 15px;
+        height: 17px;
+        top: -5px;
+        left: 2px;
+    }
+
+    .inputGroup input[type="checkbox"]:checked+label::before, .inputGroup input[type="radio"]:checked+label::before {
+        width: 15px;
+        height: 17px;
+        left: 22px;
+        top: 17px;
+    }
+
+    .inputGroup label {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #contentItemSix .inputGroup input[type="text"], #contentItemThree .inputGroup input[type="text"], #contentItemOne .inputGroup input[type="text"] {
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .inputGroupSpeshR {
+        font-size: 15px;
+        height: 230px;
+    }
+
+    .textboxOther {
+        font-size: 14px;
+    }
+
+    .inputGroupSpeshTwo {
+        font-size: 14px;
+        height: 60px;
+    }
+
+    .textboxOtherT {
+        font-size: 14px;
+    }
+
+    .btnCont {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    .navBtnTwo {
+        height: 50px;
+    }
+
+    .textboxS {
+        height: 60px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        padding-top: 100px;
+        font-size: 25px;
+    }
+
+    .form__p,
+    .success__p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        width: 80%;
+    }
+
+    .formOutputSpexh {
+        width: 45%;
+        font-size: 15px;
+        height: 60px;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+
+    .formBtn {
+        height: 60px;
+        width: 45%;
+        font-size: 15px;
+    }
+
+    .politics {
+        width: 45%;
+    }
+
+    .navBtnOne {
+        font-size: 14px;
+        padding: 14px 0;
+    }
+
+    .formOutputSpexh input{
+        padding-left: 60px;
+    }
+
+    .quiz-content-question-h2 {
+        white-space: normal;
+    }
+
+    .success__span {
+        margin: 20px 0 30px;
+    }
+
+    .success__social-item{
+        width: 35px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        max-width: 990px;
+    }
+
+    .header__logo {
+        width: 180px;
+        margin-top: 35px;
+        right: 35px;
+    }
+
+    header .number {
+        width: 60px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    #presentSection {
+        min-height: 565px;
+    }
+
+    #presentSection .present-section-title {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    #presentSection .present-section-title span {
+        font-size: 30px;
+        padding-top: 18px;
+    }
+
+    #presentSection .present-section-div img {
+        width: 20px;
+        top: 8px;
+        right: 74px;
+    }
+
+    #quiz {
+        min-height: 565px;
+    }
+
+    .quiz-content-question-h2 {
+        font-size: 18px;
+        margin-top: 45px;
+    }
+
+    .inputGroup {
+        line-height: 59px;
+    }
+
+    .inputGroup label {
+        padding-left: 40px;
+    }
+
+    .inputGroupSpeshR {
+        font-size: 12px;
+        height: 200px;
+    }
+
+    .textboxOther {
+        font-size: 12px;
+    }
+
+    .navBtnOne {
+        font-size: 12px;
+        width: 160px;
+    }
+
+    .btnCont {
+        font-size: 12px;
+        width: 160px;
+    }
+
+    .navBtnTwo {
+        height: 55px;
+    }
+
+    .textboxS {
+        font-size: 14px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        font-size: 21px;
+    }
+
+    .form__p,
+    .success__p {
+        width: 95%;
+    }
+
+    .formOutputSpexh {
+        width: 50%;
+    }
+
+    .formBtn {
+        width: 50%;
+    }
+
+    .politics {
+        width: 50%;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .inputGroup label::after, .inputGroup__checkField {
+        left: 12px;
+    }
+
+    .inputGroup input[type="checkbox"]:checked+label::before, .inputGroup input[type="radio"]:checked+label::before {
+        left: 15px;
+    }
+
+    #contentItemSix .inputGroup input[type="text"], #contentItemThree .inputGroup input[type="text"], #contentItemOne .inputGroup input[type="text"] {
+        margin-left: 40px;
+    }
+
+    .formOutputSpexh input {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    #presentSection {
+        min-height: 100%;
+    }
+
+    #presentSection .present-section-title {
+        font-size: 12px;
+    }
+
+    #presentSection .present-section-title span {
+        font-size: 18px;
+    }
+
+    #presentSection .present-section-div {
+        width: 80%;
+    }
+
+    #presentSection .present-section-div p {
+        font-size: 14px;
+    }
+
+    #presentSection .present-section-div img {
+        top: 9px;
+        right: 46px;
+    }
+
+    #quiz-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #quiz {
+        min-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .quiz-area {
+        min-height: 480px;
+    }
+
+    .quiz-content-question-h2 {
+        margin-bottom: 30px;
+    }
+
+    .inputGroupSpeshR {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .textboxOther {
+        font-size: 16px;
+        height: 50px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .inputGroupSpeshTwo {
+        margin-bottom: 20px;
+    }
+
+    .navigationBtn {
+        padding-bottom: 40px;
+    }
+
+    .btnCont {
+        font-size: 12px;
+    }
+
+    .textboxS {
+        font-size: 14px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        font-size: 16px;
+        padding-top: 50px;
+    }
+
+    .form__p,
+    .success__p,
+    .success__span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .success__span {
+        margin: 0px 0 15px;
+    }
+
+    .success__social-item {
+        width: 30px;
+    }
+
+    .formOutputSpexh {
+        width: 80%;
+    }
+
+    .formBtn {
+        width: 80%;
+    }
+
+    .politics {
+        width: 80%;
+        padding-top: 5px;
+        line-height: 10px;
+    }
+
+    .navBtnOne {
+        width: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    header .number {
+        padding-top: 15px;
+    }
+
+    .header__logo {
+        width: 140px;
+        margin-top: 35px;
+        right: 35px;
+    }
+
+    #presentSection {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+        min-height: 100vh;
+    }
+
+    #presentSection .present-section-title {
+        font-size: 14px;
+    }
+
+    #presentSection .present-section-title span {
+        font-size: 16px;
+    }
+
+    #presentSection .present-section-div {
+        width: 90%;
+        height: 100px;
+    }
+
+    #presentSection .present-section-div p {
+        font-size: 12px;
+    }
+
+    #presentSection .present-section-div img {
+        width: 15px;
+        right: 30px;
+    }
+
+    .quiz-area {
+        min-height: 200px;
+    }
+
+    .quiz-content-question-h2 {
+        font-size: 16px;
+    }
+
+    .inputGroupSpeshR {
+        height: 160px;
+    }
+
+    .navigationBtn {
+        padding-top: 50px;
+    }
+
+    .navBtnTwo {
+        height: 50px;
+    }
+
+    .textboxS {
+        font-size: 12px;
+        padding-left: 20px;
+        height: 50px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        font-size: 16px;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .form__p,
+    .success__p,
+    .success__span {
+        font-size: 14px;
+        text-align: center;  
+        width: 100%;
+    }
+
+    .success__social{
+        text-align: center;
+    }
+
+    .success__social-item:last-child{
+        margin-right: 0;
+    }
+
+    .formOutputSpexh {
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .formBtn {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .politics {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contentItemSix .inputGroup input[type="text"], #contentItemThree .inputGroup input[type="text"], #contentItemOne .inputGroup input[type="text"] {
+        width: calc(100% - 40px);
+    }
+
+    #contentItemSix .inputGroup input[type="text"]::placeholder{
+        font-size: 12px;
+    }
+
+    #contentItemSix .inputGroup{
+        line-height: 57px;
+    }
+
+    .formOutputSpexh input{
+        padding-left: 40px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .header__logo {
+        margin-top: 215px;
+        right: 15px;
+    }
+
+    header .number {
+        width: 40px;
+        height: 50px;
+        font-size: 18px;
+        padding-top: 0;
+    }
+
+
+    #presentSection {
+        min-height: 100px;
+    }
+
+    #presentSection .present-section-title span {
+        padding-top: 5px;
+    }
+
+    #presentSection .present-section-div {
+        width: 120%;
+        height: 80px;
+        padding-bottom: 0;
+    }
+
+    #presentSection .present-section-div p {
+        font-size: 10px;
+    }
+
+    #presentSection .present-section-div img {
+        width: 10px;
+        right: 15px;
+        top: 7px;
+    }
+
+    #presentSection .present-section-div-1 img {
+        right: 8px;
+    }
+
+    #presentSection .present-section-div-2 {
+        margin-left: -4px;
+    }
+
+    #presentSection .present-section-div-2 img {
+        right: 13px;
+    }
+
+    #presentSection .present-section-div-3 {
+        margin-left: -12px;
+    }
+
+    #presentSection .present-section-div-3 img {
+        right: 20px;
+    }
+
+    .container {
+        max-width: 320px;
+        padding-top: 15px;
+    }
+
+    #quiz-section {
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .quiz-area {
+        min-height: 220px;
+    }
+
+    .quiz-content-question-h2 {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+
+    .inputGroup label {
+        padding-left: 40px;
+    }
+
+    .inputGroupSpeshR {
+        height: 140px;
+        margin-bottom: 10px;
+    }
+
+    .inputGroupSpeshR {
+        padding-left: 15px;
+        display: block;
+        margin: auto;
+        height: 140px;
+    }
+
+    .textboxOther {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    .inputGroupSpeshTwo {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .textboxOtherT {
+        font-size: 10px;
+        padding-left: 0;
+    }
+
+    .navigationBtn {
+        margin-top: 0px;
+    }
+
+    .btnCont {
+        width: 120px;
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .navBtnTwo {
+        height: 40px;
+    }
+
+    .navBtnOne {
+        padding: 9px 0;
+    }
+
+    .textboxS {
+        font-size: 10px;
+    }
+
+    .form__h3,
+    .success__h3 {
+        font-size: 14px;
+    }
+
+    .form__p,
+    .success__p {
+        font-size: 10px;
+        line-height: 12px;
+        width: 100%;
+    }
+
+    .formOutputSpexh {
+        width: 100%;
+        font-size: 12px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .formBtn {
+        width: 100%;
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .politics {
+        font-size: 8px;
+    }
+}
